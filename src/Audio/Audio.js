@@ -1,18 +1,18 @@
 import React, {useEffect, useRef, useState} from 'react';
 
-
-const Audior = React.forwardRef((props,audioPlayer) => {
-    <audio ref={audioPlayer} {...props} />
-})
-
-const Range = React.forwardRef((props,rangePlayer) => {
-    <input ref={rangePlayer} {...props} />
-})
+//
+// const Audior = React.forwardRef((props,audioPlayer) => {
+//     <audio ref={audioPlayer} {...props} />
+// })
+//
+// const Range = React.forwardRef((props,rangePlayer) => {
+//     <input ref={rangePlayer} {...props} />
+// })
 
 export default function Audio (props) {
     const [duration, setDuration] = useState(0)
     const [mute,setMute] = useState(false)
-    const [currentTime,setCurrentTime] = useState(0)
+    const [,setCurrentTime] = useState(0)
     const audioRef = React.useRef()
     const rangeRef = React.useRef()
     const animationRef = useRef()
@@ -20,6 +20,7 @@ export default function Audio (props) {
 
 
     useEffect(() => {
+
         const seconds = Math.floor(audioRef.current.duration);
         setDuration(seconds);
         rangeRef.current.max=seconds

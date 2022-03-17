@@ -1,4 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
+import {GiSpeaker,GiSpeakerOff} from 'react-icons/gi';
 
 //
 // const Audior = React.forwardRef((props,audioPlayer) => {
@@ -70,9 +71,9 @@ export default function Audio (props) {
             <div className='audioPlayer' style={{backgroundColor:props.bcolor}}>
                 <audio loop={props.loop} ref={audioRef} src={props.aud_src} preload='metadata' muted={mute}>Error</audio>
                 <button className='ButtonPlayer' onClick={toggleMute} >
-                    {mute ?  'Muted' : 'Unmute'}
+                    {mute ?  <GiSpeakerOff/> : <GiSpeaker/>}
                 </button>
-                <p style={{display:'flex',justifyContent:'center',alignItems:'center'}}>{props.name}</p>
+                <p style={{display:'flex',justifyContent:'center',alignItems:'center',fontSize:'23px'}}>{props.name}</p>
 
             </div>
             <input ref={rangeRef} type='range' onChange={changeRange} /></>)

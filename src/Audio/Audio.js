@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {GoUnmute, GoMute} from 'react-icons/go'
+
 
 const Audior = React.forwardRef((props,audioPlayer) => {
     <audio ref={audioPlayer} {...props} />
@@ -69,7 +69,7 @@ export default function Audio (props) {
             <div className='audioPlayer' style={{backgroundColor:props.bcolor}}>
                 <audio loop={props.loop} ref={audioRef} src={props.aud_src} preload='metadata' muted={mute}>Error</audio>
                 <button className='ButtonPlayer' onClick={toggleMute} >
-                    {mute ?  <GoMute/> : <GoUnmute/>}
+                    {mute ?  'Muted' : 'Unmute'}
                 </button>
                 <p style={{display:'flex',justifyContent:'center',alignItems:'center'}}>{props.name}</p>
 

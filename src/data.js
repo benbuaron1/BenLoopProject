@@ -1,7 +1,7 @@
 export const songsArray = [
         {
             songName:'Tambourine Shake',
-            songFileName:'_tambourine_shake_higher',
+            songFileName:'tambourine_shake_higher',
             bcolor:'rgba(73,1,107,0.92)'
         },
     {
@@ -26,7 +26,7 @@ export const songsArray = [
     },
     {
         songName:'Lead',
-        songFileName:'Lead1',
+        songFileName:'LEAD1',
         bcolor:'#B526F6EA'
     },
     {

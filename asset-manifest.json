@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BenLoopProject/static/css/main.f1afd7ed.css",
-    "main.js": "/BenLoopProject/static/js/main.47c6f205.js",
+    "main.css": "/BenLoopProject/static/css/main.d06d4b24.css",
+    "main.js": "/BenLoopProject/static/js/main.be8f8211.js",
     "static/js/787.6f8b2302.chunk.js": "/BenLoopProject/static/js/787.6f8b2302.chunk.js",
     "static/media/BenAudio.jpeg": "/BenLoopProject/static/media/BenAudio.b194275af0c2ee16ed0c.jpeg",
     "index.html": "/BenLoopProject/index.html",
-    "main.f1afd7ed.css.map": "/BenLoopProject/static/css/main.f1afd7ed.css.map",
-    "main.47c6f205.js.map": "/BenLoopProject/static/js/main.47c6f205.js.map",
+    "main.d06d4b24.css.map": "/BenLoopProject/static/css/main.d06d4b24.css.map",
+    "main.be8f8211.js.map": "/BenLoopProject/static/js/main.be8f8211.js.map",
     "787.6f8b2302.chunk.js.map": "/BenLoopProject/static/js/787.6f8b2302.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1afd7ed.css",
-    "static/js/main.47c6f205.js"
+    "static/css/main.d06d4b24.css",
+    "static/js/main.be8f8211.js"
   ]
 }

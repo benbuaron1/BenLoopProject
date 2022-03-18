@@ -3,11 +3,13 @@ export const songsArray = [
             songName:'Tambourine Shake',
             songFileName:'tambourine_shake_higher',
             bcolor:'rgba(73,1,107,0.92)'
+
         },
     {
         songName:'B Vocals',
         songFileName:'BVOC',
         bcolor:'rgba(88,1,126,0.92)'
+
     },
     {
         songName:'Drums',
@@ -18,6 +20,7 @@ export const songsArray = [
         songName:'He He Vocals',
         songFileName:'HEHEVOC',
         bcolor:'rgba(153,1,224,0.92)'
+
     },
     {
         songName:'Jibrish',
@@ -28,6 +31,7 @@ export const songsArray = [
         songName:'Lead',
         songFileName:'LEAD1',
         bcolor:'#B526F6EA'
+
     },
     {
         songName:'UhhHoo Vocals',
@@ -38,6 +42,7 @@ export const songsArray = [
         songName:'High Vocals',
         songFileName:'HIGHVOC',
         bcolor:'#CD69FCEA'
+
     },
 
 ]

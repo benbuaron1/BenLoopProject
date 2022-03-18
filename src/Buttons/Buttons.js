@@ -3,6 +3,7 @@ import {FaPlay,FaStop,FaPause,FaArrowsAltH} from 'react-icons/fa'
 import {ImLoop} from 'react-icons/im'
 import React from "react";
 
+// This component takes the buttons and the relevant function to execute.
 export default function Buttons(props) {
     return (
         <>

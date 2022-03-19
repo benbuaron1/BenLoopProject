@@ -46,7 +46,7 @@ function App() {
           <br/>
           {/*  Buttons component - get the functions and use them as props and functions */}
           <Buttons togglePlayPause={togglePlayPause} isPlaying={isPlaying} togglePause={toggleStop}
-                   toggleLoop={toggleLoop} isLoop={isLoop}/>
+                   toggleLoop={toggleLoop} stopped={isStopped} isLoop={isLoop}/>
         </>
       </div>
   );

@@ -63,7 +63,8 @@ export default function Audio (props) {
                 <button className='ButtonPlayer' onClick={toggleMute} >
                     {mute ?  <GiSpeakerOff/> : <GiSpeaker/>}
                 </button>
-                <p style={{display:'flex',justifyContent:'center',alignItems:'center',fontSize:'2vw'}}>{props.name}</p>
+                <p style={{display:'flex',justifyContent:'center',alignItems:'center',fontSize:'1.4vw'}}>{props.name}</p>
+
 
             </div>
             <input ref={rangeRef} type='range' onChange={changeRange} /></>)

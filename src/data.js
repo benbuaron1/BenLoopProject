@@ -1,4 +1,9 @@
 export const songsArray = [
+    {
+        songName:'All Track',
+        songFileName:'ALLTRACK',
+        bcolor:'rgba(54,1,79,0.92)'
+    },
         {
             songName:'Tambourine Shake',
             songFileName:'tambourine_shake_higher',

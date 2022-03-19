@@ -33,12 +33,12 @@ function App() {
   return (
       <div className="App Title">
         <h1 className="Head">Moveo's Audio Player</h1>
-        <Title name="Moveo"/>
+        <Title name="Moveo"/><br/>
         <>
           {/* Iterating throgh the array of songs objects and returns the relevant Audio object for each song. {data.js} */}
           {/* The props are inserted to the Audio jsx object and helps the component to render the relevant output for user */}
           {songsArray.map((value, index) => {
-            return <Audio rangePlayer={rangePlayer} audioPlayer={audioPlayer}
+            return <Audio key={index} rangePlayer={rangePlayer} audioPlayer={audioPlayer}
                           aud_src={`${process.env.PUBLIC_URL}/LoopFiles/${value.songFileName}.mp3`}
                           name={value.songName} bcolor={value.bcolor} play={isPlaying} stopped={isStopped}
                           loop={isLoop}/>
